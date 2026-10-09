@@ -5,7 +5,7 @@
     --BaseColor4: #ecfefd;
     --letrasBase1: #FFFFFF;
     --letrasBase4: #000000;
-    --BotonPrimario: #E9C46A ;
+    --BotonPrimario: #53ef91 ;
     --BotonSecundario: #E63946;
 }
 html {
@@ -89,12 +89,12 @@ img, picture, video, canvas, svg {
 }
 
 .opciones a {
-    color: var(--letrasBase1);
+    color: var(--letrasBase4);
     text-decoration: none;
     margin: 20px;
 }
 .opciones a:hover {
-    color: var(--BotonPrimario);
+    color: var(--BotonSecundario);
 }
 .opciones a.active {
     color: var(--BotonPrimario);
@@ -129,49 +129,19 @@ thead {
     border: 1px solid var(--letrasBase4);
 }
 .btn-cerrar-sesion:hover {
-    background-color: var(--BotonSecundario);
+    background-color: var(--BaseColor1);
 }
 
 
- 
-* { margin: 0; padding: 0; box-sizing: border-box; }
-html { scroll-behavior: smooth; }
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background: var(--letrasBase1);
-    color: var(--letrasBase4);
-    line-height: 1.6;
-}
-a { text-decoration: none; color: inherit; }
- 
-/* ========== 2. ENCABEZADO ========== */
-.encabezado {
-    display: flex; align-items: center; justify-content: space-between;
-    padding: 16px 48px;
-    background: var(--BaseColor1);
-    border-bottom: 3px solid var(--BotonPrimario);
-    position: sticky; top: 0; z-index: 10;
-}
-.logo { font-size: 1.6rem; font-weight: bold; color: var(--BaseColor3); }
-.encabezado .menu { display: flex; gap: 32px; }
-.encabezado .menu a { color: var(--BaseColor2); font-weight: bold; }
-.encabezado .menu a:hover { color: var(--BaseColor3); }
+
 .btn-login {
     padding: 8px 20px;
     border: 2px solid var(--BaseColor3); border-radius: 6px;
     color: var(--BaseColor3); font-weight: bold;
+    border: 1px solid var(--letrasBase4);
 }
-.btn-login:hover { background: var(--BaseColor3); color: var(--letrasBase1); }
+.btn-login:hover { background: var(--BaseColor3); color: var(--BaseColor1); }
  
-/* ========== 3. BOTONES ========== */
-.btn {
-    display: inline-block; padding: 12px 32px;
-    background: var(--BotonPrimario); color: var(--letrasBase4);
-    border-radius: 6px; font-weight: bold;
-}
-.btn:hover { background: var(--letrasBase1); color: var(--BaseColor1); }
- 
-/* ========== 4. PORTADA ========== */
 .hero {
     display: flex; align-items: center; justify-content: space-between;
     min-height: 480px; padding: 48px;
@@ -192,7 +162,7 @@ a { text-decoration: none; color: inherit; }
 }
 
  
-/* ========== 5. SECCIONES ========== */
+
 .seccion { padding: 64px 48px; max-width: 1100px; margin: 0 auto; }
 .seccion h2 { font-size: 4rem; margin-bottom: 30px; color: var(--BaseColor2); }
  
