@@ -159,6 +159,7 @@ thead {
   max-width: 520px;
   height: 420px;
   object-fit: cover;
+  border-radius: 12px;
 }
 
  
@@ -166,14 +167,7 @@ thead {
 .seccion { padding: 64px 48px; max-width: 1100px; margin: 0 auto; }
 .seccion h2 { font-size: 4rem; margin-bottom: 30px; color: var(--BaseColor2); }
  
-/* Cajas de imagen (placeholders) */
-.media-caja {
-    display: flex; align-items: center; justify-content: center;
-    min-height: 140px;
-    background: var(--BaseColor4);
-    border: 2px dashed var(--BaseColor3);
-    border-radius: 10px; color: var(--BaseColor2);
-}
+
  
 /* Conócenos: fondo blanco, letras negras */
 .conocenos-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; align-items: center; }
@@ -184,8 +178,6 @@ thead {
 .seccion-alt > * { max-width: 1100px; margin-left: auto; margin-right: auto; }
 .seccion-alt h2 { color: var(--BotonPrimario); }
 .instalaciones-grid { display: grid; grid-template-columns: 1fr 140px 1fr; gap: 32px; align-items: center;}
-.miniaturas { display: flex; flex-direction: column; gap: 50px; }
-.miniaturas .media-caja { min-height: 150px; min-width: 150; }
  
 /* Matrícula: fondo azul claro, tarjetas blancas */
 .seccion-matricula { max-width: none; background: var(--BaseColor1); }
