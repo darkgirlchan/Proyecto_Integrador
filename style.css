@@ -132,16 +132,7 @@ thead {
     background-color: var(--BotonSecundario);
 }
 
-/*estilos mariana*/
-:root {
-    --BaseColor1: #081C15;
-    --BaseColor2: #1B4322;
-    --BaseColor3: #036666;
-    --BaseColor4: #EBF2FA;
-    --letrasBase1: #FFFFFF;
-    --letrasBase4: #000000;
-    --BotonPrimario: #FBB02D;
-}
+
  
 * { margin: 0; padding: 0; box-sizing: border-box; }
 html { scroll-behavior: smooth; }
