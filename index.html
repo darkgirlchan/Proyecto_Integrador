@@ -16,105 +16,75 @@
         </nav>
         <a href="login.html" class="btn-login">Login</a>
     </header>
-    
+
 </body>
-<!-- ENCABEZADO -->
-  <header class="header">
-    <!-- AQUÍ VA EL LOGO (imagen) -->
-    <div class="logo">LOGO</div>
 
-    <nav class="nav">
-      <a href="#conocenos">Conócenos</a>
-      <a href="#instalaciones">Instalaciones</a>
-      <a href="#matricula">Matrícula</a>
-    </nav>
-
-    <a href="#" class="btn btn-login">LOGIN</a>
-  </header>
-
-  <main>
-    <!-- HERO -->
-    <section class="hero">
+   <main>
+    <!-- Página 1: Hero -->
+    <section id="inicio" class="hero">
       <div class="hero-texto">
-        <p class="lema">Fe · Valores · Conocimiento</p>
-        <p>Conoce</p>
-        <h1>TEXTOPROM</h1>
-        <h2>Calificado 100%</h2>
-        <p class="subtitulo">Educación integral con fundamento en la fe.</p>
-        <a href="#matricula" class="btn btn-primario">Regístrate</a>
+        <p class="hero-pre">Conoce</p>
+        <h1>Texto promocional</h1>
+        <p class="hero-sub">Certificado 100%</p>
+        <a href="registro.html" class="btn">Regístrate</a>
       </div>
-
-      <div class="hero-imagenes">
-        <!-- AQUÍ VA LA IMAGEN 1 (vertical, esquinas superiores redondeadas) -->
-        <div class="img-placeholder img-vertical">IMAGEN</div>
-        <!-- AQUÍ VA LA IMAGEN 2 (vertical, esquinas superiores redondeadas) -->
-        <div class="img-placeholder img-vertical">IMAGEN</div>
+      <div class="hero-arcos">
+        <div class="arco arco-1"></div>
+        <div class="arco arco-2"></div>
       </div>
     </section>
 
-    <!-- CONÓCENOS -->
-    <section class="conocenos" id="conocenos">
+    <!-- Página 2: Conócenos -->
+    <section id="conocenos" class="seccion">
       <h2>Conócenos</h2>
-      <div class="conocenos-contenido">
-        <!-- AQUÍ VA LA IMAGEN O VIDEO PRINCIPAL DE "CONÓCENOS" -->
-        <div class="img-placeholder img-grande">IMAGEN / VIDEO</div>
-        <div class="texto">
-          <p>Somos una institución educativa que forma estudiantes con valores cristianos, excelencia académica y vocación de servicio. (Texto de ejemplo: reemplázalo por la historia de la institución.)</p>
-          <p><strong>Misión:</strong> Texto de la misión...</p>
-          <p><strong>Visión:</strong> Texto de la visión...</p>
-          <p><strong>Lema / valores:</strong> Fe, respeto, servicio, responsabilidad...</p>
-        </div>
+      <div class="conocenos-grid">
+        <div class="media-caja">Imagen / Video</div>
+        <p>Somos una institución educativa comprometida con la formación integral de nuestros estudiantes. Nuestra plataforma permite registrar, consultar y visualizar las notas y la asistencia de forma clara y organizada, para estudiantes, docentes y familias.</p>
       </div>
     </section>
 
-    <!-- INSTALACIONES Y SERVICIOS -->
-    <section class="instalaciones" id="instalaciones">
+    <!-- Página 3: Instalaciones y servicios -->
+    <section id="instalaciones" class="seccion seccion-alt">
       <h2>Instalaciones y servicios</h2>
-      <div class="instalaciones-contenido">
-        <div class="texto">
-          <p>Aulas, biblioteca, laboratorios y zonas deportivas pensadas para el aprendizaje. Espacio de oración o capilla para la vida espiritual de la comunidad. (Texto de ejemplo.)</p>
+      <div class="instalaciones-grid">
+        <p>Contamos con aulas dotadas de tecnología, salas de cómputo, biblioteca y zonas deportivas pensadas para el aprendizaje.</p>
+        <div class="miniaturas">
+          <div class="media-caja">Foto 1</div>
+          <div class="media-caja">Foto 2</div>
+          <div class="media-caja">Foto 3</div>
         </div>
-
-        <div class="instalaciones-imagenes">
-          <!-- AQUÍ VA LA IMAGEN DE INSTALACIÓN 1 -->
-          <div class="img-placeholder img-pequena">IMAGEN</div>
-          <!-- AQUÍ VA LA IMAGEN DE INSTALACIÓN 2 -->
-          <div class="img-placeholder img-pequena">IMAGEN</div>
-        </div>
-
-        <div class="texto">
-          <p>Servicios: acompañamiento pastoral, orientación escolar, actividades culturales y deportivas. (Texto de ejemplo.)</p>
-        </div>
+        <p>Además ofrecemos consulta de notas en línea, control de asistencia, boletines digitales y acompañamiento académico.</p>
       </div>
     </section>
 
-    <!-- MATRÍCULA -->
-    <section class="matricula" id="matricula">
-      <h2>Matrícula</h2>
-      <div class="tarjetas">
-        <article class="tarjeta">
+    <!-- Página 4: Matricúlate -->
+    <section id="matricula" class="seccion">
+      <h2>Matricúlate</h2>
+      <ol class="pasos">
+        <li class="paso">
           <span class="numero">1</span>
-          <h3>Inscripción</h3>
-          <p>Diligencia el formulario y entrega los documentos requeridos.</p>
-        </article>
-        <article class="tarjeta">
+          <h3>Regístrate</h3>
+          <p>Crea tu cuenta con tus datos básicos.</p>
+        </li>
+        <li class="paso">
           <span class="numero">2</span>
-          <h3>Entrevista</h3>
-          <p>Encuentro con la familia y el estudiante para conocernos.</p>
-        </article>
-        <article class="tarjeta">
+          <h3>Sube tus documentos</h3>
+          <p>Adjunta los soportes que solicita la institución.</p>
+        </li>
+        <li class="paso">
           <span class="numero">3</span>
-          <h3>Matrícula</h3>
-          <p>Confirma tu cupo y firma el compromiso con la comunidad educativa.</p>
-        </article>
+          <h3>Confirma tu matrícula</h3>
+          <p>Recibe la confirmación y accede a tu panel.</p>
+        </li>
+      </ol>
+      <div class="centrado">
+        <a href="registro.html" class="btn">Regístrate</a>
       </div>
     </section>
   </main>
 
-  <!-- PIE DE PÁGINA -->
-  <footer class="footer">
-    <p>Derechos reservados 2026 · TEXTOPROM</p>
-    <p class="lema-footer">Educando con fe y valores</p>
+  <footer class="pie">
+    <p>&copy; 2026 Instituto Horizonte · Gestión de notas y asistencia</p>
   </footer>
 
 </body>
