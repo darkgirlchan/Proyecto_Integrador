@@ -133,6 +133,146 @@ thead {
 }
 
 /*estilos mariana*/
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--BaseColor4);
+  color: var(--letrasBase4);
+  line-height: 1.6;
+}
+
+section { padding: 3rem 2rem; }
+section h2 { margin-bottom: 1.5rem; }
+
+/* Botones */
+.btn {
+  display: inline-block;
+  padding: .6rem 1.4rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn-primario { background: var(--BotonPrimario); color: var(--letrasBase4); }
+.btn-login { border: 2px solid var(--BotonPrimario); color: var(--letrasBase1); }
+
+/* Marcadores de imagen */
+.img-placeholder {
+  background: var(--BaseColor3);
+  color: var(--letrasBase1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+.img-vertical { width: 150px; height: 320px; border-radius: 75px 75px 0 0; }
+.img-grande { width: 100%; min-height: 250px; border-radius: 8px; }
+.img-pequena { width: 140px; height: 90px; border-radius: 6px; }
+
+/* Encabezado */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: var(--BaseColor1);
+  color: var(--letrasBase1);
+}
+.logo { font-weight: bold; font-size: 1.3rem; }
+.nav { display: flex; gap: 2rem; }
+.nav a { color: var(--letrasBase1); text-decoration: none; }
+.nav a:hover { color: var(--BotonPrimario); }
+
+/* Hero */
+.hero {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 2rem;
+  padding-bottom: 0;
+  background: var(--BaseColor2);
+  color: var(--letrasBase1);
+}
+.hero-texto { padding-bottom: 3rem; align-self: center; }
+.hero-texto h1 { font-size: 3rem; }
+.hero-texto h2 { margin: .5rem 0 1.5rem; font-weight: normal; }
+.hero-imagenes { display: flex; gap: 1.5rem; align-items: flex-end; }
+.hero-imagenes .img-vertical:last-child { height: 380px; }
+
+.lema {
+  color: var(--BotonPrimario);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: .85rem;
+  margin-bottom: .5rem;
+}
+.subtitulo { margin-bottom: 1.5rem; max-width: 380px; }
+.conocenos .texto p { margin-bottom: .8rem; }
+.tarjeta h3 { color: var(--BaseColor2); margin-bottom: .4rem; }
+.lema-footer { color: var(--BotonPrimario); font-style: italic; font-size: .9rem; }
+
+/* Conócenos */
+.conocenos-contenido {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+/* Instalaciones y servicios */
+.instalaciones { background: var(--BaseColor1); color: var(--letrasBase1); }
+.instalaciones-contenido {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+.instalaciones-imagenes { display: flex; flex-direction: column; gap: 1rem; }
+
+/* Matrícula */
+.tarjetas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+.tarjeta {
+  background: var(--letrasBase1);
+  border: 2px solid var(--BaseColor3);
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+}
+.numero {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin-bottom: .8rem;
+  border-radius: 50%;
+  background: var(--BaseColor3);
+  color: var(--letrasBase1);
+  font-weight: bold;
+}
+
+/* Pie de página */
+.footer {
+  padding: 1.5rem;
+  text-align: center;
+  background: var(--BaseColor1);
+  color: var(--letrasBase1);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .header { flex-direction: column; gap: 1rem; }
+  .hero, .conocenos-contenido, .instalaciones-contenido, .tarjetas {
+    grid-template-columns: 1fr;
+    flex-direction: column;
+  }
+  .hero-imagenes { justify-content: center; }
+  .instalaciones-imagenes { flex-direction: row; justify-content: center; }
+}
 
 /*estilos natalia*/
 
