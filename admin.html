@@ -7,6 +7,76 @@
     <title>Panel de administración</title>
 </head>
 <body>
-    
+    <header>
+    <aside class="sidebar">
+        <div class="sidebar-links">
+        <ul>
+            <li><a href="#resumen">Resumen</a></li>
+            <li><a href="#notas">Notas</a></li>
+            <li><a href="#asistencia">Asistencia</a></li>
+            <li><a href="#datos">Mis Datos</a></li>
+        </ul>
+        </div>
+        <button onclick="location.href='login.html'" class="btn-cerrar-sesion"> Cerrar sesión</button>
+    </aside>
+    </header>
+    <main></main>
+    <section id="resumen" class="content-admin">
+        <h2>Resumen</h2>
+        <div class="tarjetas">
+            <article class="tarjeta"><h3>Promedio</h3><p class="dato">4.2</p></article>
+            <article class="tarjeta"><h3>Asistencia</h3><p class="dato">94%</p></article>
+            <article class="tarjeta"><h3>Materias</h3><p class="dato">6</p></article>
+            <article class="tarjeta"><h3>Faltas</h3><p class="dato">3</p></article>
+        </div>
+    </section>
+    <section class="content-admin" id="notas">
+        <h2>Notas Por Materia</h2>
+    <table>
+        <thead>
+          <tr><th>Materia</th><th>Docente</th><th>Periodo 1</th><th>Periodo 2</th><th>Periodo 3</th><th>Definitiva</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Matemáticas</td><td>Carlos Ruiz</td><td>4.5</td><td>4.0</td><td>4.3</td><td>4.3</td></tr>
+          <tr><td>Español</td><td>Ana Mejía</td><td>4.0</td><td>4.2</td><td>4.1</td><td>4.1</td></tr>
+          <tr><td>Ciencias</td><td>Luis Pérez</td><td>3.8</td><td>4.0</td><td>4.4</td><td>4.1</td></tr>
+          <tr><td>Inglés</td><td>Sara Díaz</td><td>4.7</td><td>4.6</td><td>4.8</td><td>4.7</td></tr>
+          <tr><td>Sociales</td><td>Mario Rojas</td><td>3.5</td><td>3.9</td><td>4.0</td><td class="alerta">3.8</td></tr>
+        </tbody>
+    </table>
+    </section>
+    <section class="content-admin" id="asistencia">
+        <h2>Registro de Asistencia</h2>
+        <table>
+            <thead>
+                <tr><th>Fecha</th><th>Materia</th><th>Asistencia</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>2026-01-10</td><td>Matemáticas</td><td>Presente</td></tr>
+                <tr><td>2026-01-11</td><td>Español</td><td>Ausente</td></tr>
+                <tr><td>2026-01-12</td><td>Ciencias</td><td>Presente</td></tr>
+                <tr><td>2026-01-13</td><td>Inglés</td><td>Presente</td></tr>
+                <tr><td>2026-01-14</td><td>Sociales</td><td>Ausente</td></tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="content-admin" id="datos">
+        <h2>Datos del estudiante</h2>
+        <table>
+            <tbody>
+                <tr><td>Nombre del estudiante:</td><td>Julieta Castro Gaviria</td></tr>
+                <tr><td>Identificación: </td><td>1005788950</td></tr>
+                <tr><td>Edad: </td><td>15 años</td></tr>
+                <tr><td>Grado: </td><td>10°A</td></tr>
+                <tr><td>Acudiente:</td><td>Martha Gaviria</td></tr>
+                <tr><td>Número de contacto:</td><td>3235556789</td></tr>
+                <tr><td>Estado de matrícula:</td><td>Activo</td></tr>
+            </tbody>
+        </table>
+    </section>
+      <footer class="pie">
+    <p class="p3">&copy; 2026 Institución Educativa El Último Día</p>
+  </footer>
 </body>
 </html>

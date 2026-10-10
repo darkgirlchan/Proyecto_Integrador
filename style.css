@@ -1,0 +1,441 @@
+/*estilos bases*/
+:root {
+    --BaseColor1: #1f7a6f;
+    --BaseColor2: #2a9d8f;
+    --BaseColor4: #ecfefd;
+    --letrasBase1: #FFFFFF;
+    --letrasBase4: #000000;
+    --BotonPrimario: #53ef91 ;
+    --BotonSecundario: #E63946;
+}
+
+html {
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.6;
+}
+
+h1 {
+    color: var(--letrasBase1);
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+h2 {
+    color: var(--letrasBase1);
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+h3 {
+    color: var(--letrasBase4);
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+p {
+    color: var(--letrasBase4);
+    font-size: 1rem;
+    text-align: left;
+    margin-top: 1rem;
+}
+
+a {
+    color: var(--letrasBase4);
+    text-decoration: underline;
+}
+
+ul,ol {
+    list-style: none;
+}
+
+img, picture, video, canvas, svg {
+    max-width: 100%;
+    display: block;
+}
+
+.logo{
+    margin-left: -20px;
+    display: flex;
+    width: 100px;
+    height:fit-content;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--BaseColor1);
+    padding: 24px 16px;                 
+    overflow-y: auto;
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 4px 0 10px rgba(0, 0, 0, 0.15); 
+}
+
+.sidebar a {
+    color: var(--letrasBase1);
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 500;
+    padding: 12px 16px;
+    margin: 6px 0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.sidebar a:hover{
+    color: var(--BotonPrimario);
+}
+
+.navbar {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: var(--BaseColor4);
+    padding: 15px 50px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.opciones a {
+    color: var(--letrasBase4);
+    text-decoration: none;
+    margin: 20px;
+}
+
+.opciones a:hover {
+    color: var(--BaseColor1);
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 20px;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid var(--BaseColor2);
+}
+
+table th,
+table td {
+    padding: 10px;
+    text-align: left;
+    border-top: 1px solid var(--BaseColor2);
+}
+
+thead {
+    background-color: var(--BaseColor2);
+    color: var(--letrasBase1);
+}
+
+.btn-cerrar-sesion {
+    padding: 8px 20px;
+    background-color: var(--BaseColor1);
+    border: 2px solid var(--BaseColor3); border-radius: 6px;
+    color: var(--letrasBase1); font-weight: bold;
+    border: 1px solid var(--letrasBase4);
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: auto; 
+    border: 1px solid var(--letrasBase4);
+}
+
+.btn-cerrar-sesion:hover {
+    background-color: var(--BotonSecundario);
+}
+
+.btn-login {
+    padding: 8px 20px;
+    border: 2px solid var(--BaseColor3); border-radius: 6px;
+    color: var(--BaseColor3); font-weight: bold;
+    border: 1px solid var(--letrasBase4);
+}
+
+.btn-login:hover { 
+    background: var(--BaseColor3); 
+    color: var(--BaseColor1); 
+}
+ 
+.p2 {
+    color: var(--BaseColor4);
+}
+
+.p3 {
+    text-align: center;
+ }
+
+.pie { 
+    padding: 24px; 
+    text-align: center; 
+    background: var(--letrasBase1); 
+    color: var(--letrasBase1); 
+}
+
+/*estilos mariana*/
+
+.btn-matriculate{
+    display: block;
+    width: max-content;
+    margin: 20px auto 0 auto;
+    background-color: var(--BaseColor1);
+    color: var(--letrasBase1);
+    border: none;
+    text-decoration: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid var(--BaseColor2);
+}
+
+.btn-matriculate:hover {
+    background: var(--BotonPrimario); 
+    color: var(--letrasBase4); 
+}
+
+.matricula-div {
+    align-content: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+} 
+
+.hero {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    min-height: 480px; padding: 48px;
+    background: var(--BaseColor2);
+    color: var(--letrasBase1);
+}
+
+.hero-texto {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    line-height: 1.1;
+    margin: 8px 0;
+    color: var(--letrasBase1);
+}
+
+.hero .hero-sub {
+    font-size: 1rem;
+    margin-bottom: 24px;
+    color: var(--letrasBase1);
+}
+
+.hero-imagen img {
+  width: 100%;
+  max-width: 520px;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.seccion { 
+    padding: 150px; 
+    margin: 0 auto;
+    display: block;
+}
+
+.seccion h2 {
+    font-size: 4rem;
+    margin-bottom: 30px;
+    color: var(--BaseColor2);
+}
+
+.division-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.conocenos-grid { 
+    max-width: 600px;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.seccion-alt {
+    max-width: none;
+    background: var(--BaseColor2);
+    color: var(--letrasBase1);
+}
+
+.seccion-alt h2 {
+    color: var(--BotonPrimario);
+}
+
+.instalaciones-grid {
+    display: grid;
+    grid-template-columns: 1fr 140px 1fr;
+    gap: 32px;
+    align-items: center;
+}
+ 
+.pasos {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.paso {
+    padding: 24px; 
+    text-align: center;
+    background: var(--letrasBase1); 
+    color: var(--letrasBase4);
+    border-top: 5px solid var(--BaseColor2); 
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+
+.paso h3 {
+    margin-bottom: 8px; 
+    color: var(--BaseColor2);
+}
+
+.numero {
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center;
+    width: 44px; height: 44px; 
+    margin-bottom: 12px; 
+    border-radius: 50%;
+    background: var(--BaseColor2); 
+    color: var(--letrasBase1);
+    font-weight: bold; 
+    font-size: 1.2rem;
+}
+ 
+/*estilos natalia*/
+ 
+/*estilos danna*/
+.content-inicio { 
+    background-color: var(--BaseColor2);
+}
+.content-admin {
+    background-color: var(--BaseColor4);
+    padding: 20px;
+    flex: 1;
+    margin-left: 200px;
+    display: flexbox;
+}
+.content-admin h2 {
+    color: var(--letrasBase4);
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+ 
+/*estilos natalia*/
+/*Login*/
+.login-container{
+    background-color: var(--BaseColor4);
+    border-radius: 10%;
+    padding: 20px;
+    margin: auto;
+    height: 600px;
+    margin-top: 20px;
+    width: 50%;
+    text-align: center;
+    border: 1px solid var(--letrasBase4);
+}
+form{
+    display: grid;
+}
+.login-container h2{
+    color: var(--letrasBase4);
+}
+.login-container p{
+    text-align: center;
+    line-height: 1.5;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.login-container label{
+    padding: 20px 2px;
+    font-weight: bold;
+}
+.login-container button{
+    background-color:var(--BaseColor2);
+    padding: 10px;
+    border:none;
+    border-radius: 4px ;
+    font-weight: 200;
+    margin: 10px;
+}
+.login-container button:hover{
+    background-color: var(--BotonPrimario);
+}
+footer{
+    text-align: center;
+}
+
+/*estilos danna*/
+.content-inicio{
+    background-color: var(--BaseColor2)
+}
+.content-admin{
+    background-color: var(--BaseColor4);
+    padding: 20px;
+    flex: 1;
+    margin-left: 200px;
+    display:flexbox;   
+}
+.content-admin h2{
+    color: var(--letrasBase4);
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+.tarjetas {
+    background-color: var(--BaseColor4);
+    padding: 20px;
+    flex: 1;
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.tarjeta {
+    border-top: 20px solid var(--BaseColor1);
+    padding: 20px; 
+    background: var(--BaseColor2); 
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.tarjeta h3 { margin-bottom: 8px; color: var(--BotonPrimario);}
+.dato { 
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--letrasBase1);
+    text-align: center;
+}
+
+
+
