@@ -224,7 +224,8 @@ thead {
 } 
 
 .hero {
-    display: flex; align-items: center;
+    display: flex; 
+    align-items: center;
     justify-content: space-between;
     min-height: 480px; padding: 48px;
     background: var(--BaseColor2);
@@ -354,15 +355,26 @@ thead {
 /*estilos natalia*/
 /*Login*/
 .login-container{
-    background-color: var(--BaseColor2);
+    background-color: var(--BaseColor4);
+    border-radius: 10%;
     padding: 20px;
+    margin: auto;
+    height: 600px;
+    margin-top: 20px;
+    width: 50%;
     text-align: center;
+    border: 1px solid var(--letrasBase4);
 }
-
+form{
+    display: grid;
+}
+.login-container h2{
+    color: var(--letrasBase4);
+}
 .login-container p{
     text-align: center;
     line-height: 1.5;
-    padding: 5xp;
+    padding: 5px;
     margin-bottom: 20px;
 }
 
@@ -371,13 +383,16 @@ thead {
     font-weight: bold;
 }
 .login-container button{
-    background-color:antiquewhite;
-    padding: 5px;
+    background-color:var(--BaseColor2);
+    padding: 10px;
     border:none;
     border-radius: 4px ;
     font-weight: 200;
+    margin: 10px;
 }
-
+.login-container button:hover{
+    background-color: var(--BotonPrimario);
+}
 footer{
     text-align: center;
 }
