@@ -7,19 +7,30 @@
     <title>Panel de administración</title>
 </head>
 <body>
-    
+    <header>
     <aside class="sidebar">
         <div class="sidebar-links">
         <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="admin.html">Administración</a></li>
-            <li><a href="login.html">Iniciar sesión</a></li>
+            <li><a href="#resumen">Resumen</a></li>
+            <li><a href="#notas">Notas</a></li>
+            <li><a href="#asistencia">Asistencia</a></li>
+            <li><a href="#administracion">Administracion</a></li>
         </ul>
         </div>
-        <button class="btn-cerrar-sesion">Cerrar sesión</button>
+        <button onclick="location.href='login.html'" class="btn-cerrar-sesion"> Cerrar sesión</button>
     </aside>
-    <section></section>
-    <section class="content-admin">
+    </header>
+    <main></main>
+    <section id="resumen" class="content-admin">
+        <h2>Resumen</h2>
+        <div class="tarjetas">
+            <article class="tarjeta"><h3>Promedio</h3><p class="dato">4.2</p></article>
+            <article class="tarjeta"><h3>Asistencia</h3><p class="dato">94%</p></article>
+            <article class="tarjeta"><h3>Materias</h3><p class="dato">6</p></article>
+            <article class="tarjeta"><h3>Faltas</h3><p class="dato">3</p></article>
+        </div>
+    </section>
+    <section class="content-admin" id="notas">
         <h2>Notas Por Materia</h2>
     <table>
         <thead>
@@ -34,7 +45,7 @@
         </tbody>
     </table>
     </section>
-    <section class="content-admin">
+    <section class="content-admin" id="asistencia">
         <h2>Registro de Asistencia</h2>
         <table>
             <thead>
@@ -49,5 +60,6 @@
             </tbody>
         </table>
     </section>
+    </main>
 </body>
 </html>
