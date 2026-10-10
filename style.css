@@ -75,20 +75,38 @@ img, picture, video, canvas, svg {
 
 .sidebar {
     display: flex;
-    background-color: var(--BaseColor1);
-    padding: 30px;
     flex-direction: column;
-    justify-content: space-between;
+    background-color: var(--BaseColor1);
+    padding: 24px 16px;                 
     overflow-y: auto;
     height: 100%;
     width: 200px;
-    position:fixed;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 4px 0 10px rgba(0, 0, 0, 0.15); 
 }
 
 .sidebar a {
     color: var(--letrasBase1);
     text-decoration: none;
-    margin: 10px 0;
+    font-size: 0.95rem;
+    font-weight: 500;
+    padding: 12px 16px;
+    margin: 6px 0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.sidebar a:hover{
+    color: var(--BotonPrimario);
 }
 
 .navbar {
@@ -109,11 +127,7 @@ img, picture, video, canvas, svg {
 }
 
 .opciones a:hover {
-    color: var(--BotonSecundario);
-}
-
-.opciones a.active {
-    color: var(--BotonPrimario);
+    color: var(--BaseColor1);
 }
 
 table {
@@ -139,17 +153,19 @@ thead {
 }
 
 .btn-cerrar-sesion {
-    background-color: var(--BaseColor2);
-    color: var(--letrasBase1);
-    border: none;
-    padding: 10px 20px;
+    padding: 8px 20px;
+    background-color: var(--BaseColor1);
+    border: 2px solid var(--BaseColor3); border-radius: 6px;
+    color: var(--letrasBase1); font-weight: bold;
+    border: 1px solid var(--letrasBase4);
     cursor: pointer;
     border-radius: 5px;
+    margin-top: auto; 
     border: 1px solid var(--letrasBase4);
 }
 
 .btn-cerrar-sesion:hover {
-    background-color: var(--BaseColor1);
+    background-color: var(--BotonSecundario);
 }
 
 .btn-login {
