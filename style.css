@@ -194,6 +194,22 @@ thead {
     background: var(--letrasBase1); 
     color: var(--letrasBase1); 
 }
+
+/*Estilos Mariana*/
+
+.btn-matriculate{
+    display: block;
+    width: max-content;
+    margin: 1.25rem auto 0 auto;
+    background-color: var(--BaseColor1);
+    color: var(--letrasBase1);
+    border: none;
+    text-decoration: none;
+    padding: 0.75em 1.5em;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid var(--BaseColor2);
+}
  
 .hero {
     display: flex; align-items: center; justify-content: space-between;
