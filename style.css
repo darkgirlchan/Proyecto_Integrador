@@ -1,9 +1,10 @@
 /*estilos bases*/
-. {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 
 :root {
     --BaseColor1: #1f7a6f;
