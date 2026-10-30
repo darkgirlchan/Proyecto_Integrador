@@ -170,14 +170,14 @@ thead {
     background-color: var(--BaseColor1);
 }
 
-
-
 .btn-login {
-    padding: 8px 20px;
+    display: inline-block;
+    padding: 0.5em 1.25em;
     border: 2px solid var(--BaseColor3); border-radius: 6px;
     color: var(--BaseColor3); font-weight: bold;
     border: 1px solid var(--letrasBase4);
 }
+
 .btn-login:hover { background: var(--BaseColor3); color: var(--BaseColor1); }
  
 .hero {
