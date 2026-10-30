@@ -257,7 +257,12 @@ thead {
   border-radius: 12px;
 }
 
-.seccion { padding: 64px 48px; max-width: 1100px; margin: 0 auto; }
+.seccion { 
+    padding: 9.375rem; 
+    margin: 0 auto;
+    display: block;
+}
+
 .seccion h2 { font-size: 4rem; margin-bottom: 30px; color: var(--BaseColor2); }
  
 
