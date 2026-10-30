@@ -314,7 +314,11 @@ thead {
     box-shadow: 0 2px 8px rgba(0,0,0,0.12);
 }
 
-.paso h3 { margin-bottom: 8px; color: var(--BaseColor2); }
+.paso h3 {
+    margin-bottom: 0.5rem; 
+    color: var(--BaseColor2);
+}
+
 .numero {
     display: inline-flex; align-items: center; justify-content: center;
     width: 44px; height: 44px; margin-bottom: 12px; border-radius: 50%;
