@@ -115,10 +115,10 @@ img, picture, video, canvas, svg {
     justify-content:space-between;
     align-items: center;
     background-color: var(--BaseColor4);
-    padding: 15px 50px;
+    padding: 0.9375rem 3.125rem;
     position: sticky;
     top: 0;
-    z-index: 10;
+    z-index: 100;
 }
 
 .opciones a {
