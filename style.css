@@ -131,9 +131,6 @@ img, picture, video, canvas, svg {
 .opciones a:hover {
     color: var(--BotonSecundario);
 }
-.opciones a.active {
-    color: var(--BotonPrimario);
-}
 
 table {
     width: 100%;
