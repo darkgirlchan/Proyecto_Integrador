@@ -155,14 +155,17 @@ thead {
 }
 
 .btn-cerrar-sesion {
-    background-color: var(--BaseColor2);
-    color: var(--letrasBase1);
-    border: none;
-    padding: 10px 20px;
+    padding: 0.5em 1.25em;
+    background-color: var(--BaseColor1);
+    border: 2px solid var(--BaseColor3); border-radius: 6px;
+    color: var(--letrasBase1); font-weight: bold;
+    border: 1px solid var(--letrasBase4);
     cursor: pointer;
     border-radius: 5px;
+    margin-top: auto; 
     border: 1px solid var(--letrasBase4);
 }
+
 .btn-cerrar-sesion:hover {
     background-color: var(--BaseColor1);
 }
