@@ -263,7 +263,12 @@ thead {
     display: block;
 }
 
-.seccion h2 { font-size: 4rem; margin-bottom: 30px; color: var(--BaseColor2); }
+.seccion h2 {
+    font-size: 4rem;
+    margin-bottom: 1.875rem;
+    color: var(--BaseColor2);
+}
+
  
 
  
