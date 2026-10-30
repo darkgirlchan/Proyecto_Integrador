@@ -305,11 +305,15 @@ thead {
 }
 
 .paso {
-    padding: 24px; text-align: center;
-    background: var(--letrasBase1); color: var(--letrasBase4);
-    border-top: 5px solid var(--BaseColor2); border-radius: 12px;
+    padding: 1.5rem; 
+    text-align: center;
+    background: var(--letrasBase1); 
+    color: var(--letrasBase4);
+    border-top: 5px solid var(--BaseColor2); 
+    border-radius: 12px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.12);
 }
+
 .paso h3 { margin-bottom: 8px; color: var(--BaseColor2); }
 .numero {
     display: inline-flex; align-items: center; justify-content: center;
