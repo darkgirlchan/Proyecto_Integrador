@@ -122,10 +122,12 @@ img, picture, video, canvas, svg {
 }
 
 .opciones a {
+    display: inline-block;
     color: var(--letrasBase4);
     text-decoration: none;
-    margin: 20px;
+    margin: 1.25rem;
 }
+
 .opciones a:hover {
     color: var(--BotonSecundario);
 }
