@@ -274,9 +274,13 @@ thead {
     justify-content: space-between;
 }
 
- 
-/* Conócenos: fondo blanco, letras negras */
-.conocenos-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; align-items: center; }
+.conocenos-grid { 
+    max-width: 37.5rem;
+    text-align: center;
+    margin-top: 4%;
+}
+
+
 .conocenos-grid .media-caja { min-height: 260px; }
  
 /* Instalaciones: fondo oscuro, letras blancas */
