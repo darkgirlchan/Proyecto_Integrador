@@ -224,11 +224,14 @@ thead {
 } 
  
 .hero {
-    display: flex; align-items: center; justify-content: space-between;
-    min-height: 480px; padding: 48px;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    min-height: 30rem; padding: 3rem;
     background: var(--BaseColor2);
     color: var(--letrasBase1);
 }
+
 .hero-texto { max-width: 600px; }
 .hero .hero-pre { font-size: 1.5rem; color: var(--letrasBase1); }
 .hero h1 { font-size: 4rem; line-height: 1.1; margin: 8px 0; color: var(--letrasBase1); }
