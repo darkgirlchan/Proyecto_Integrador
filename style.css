@@ -1,4 +1,10 @@
 /*estilos bases*/
+. {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --BaseColor1: #1f7a6f;
     --BaseColor2: #2a9d8f;
@@ -177,7 +183,7 @@ thead {
 .seccion-alt { max-width: none; background: var(--BaseColor2); color: var(--letrasBase1); }
 .seccion-alt > * { max-width: 1100px; margin-left: auto; margin-right: auto; }
 .seccion-alt h2 { color: var(--BotonPrimario); }
-.instalaciones-grid { display: grid; grid-template-columns: 1fr 140px 1fr; gap: 32px; align-items: center;}
+.instalaciones-grid { display: grid; grid-template-columns: 1fr 140px 1fr; gap: 32px; align-items: center; }
  
 /* Matrícula: fondo azul claro, tarjetas blancas */
 .seccion-matricula { max-width: none; background: var(--BaseColor1); }
