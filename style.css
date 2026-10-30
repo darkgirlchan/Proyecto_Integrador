@@ -144,14 +144,16 @@ table {
 
 table th,
 table td {
-    padding: 10px;
+    padding: 0.625rem;
     text-align: left;
     border-top: 1px solid var(--BaseColor2);
 }
+
 thead {
     background-color: var(--BaseColor2);
     color: var(--letrasBase1);
 }
+
 .btn-cerrar-sesion {
     background-color: var(--BaseColor2);
     color: var(--letrasBase1);
