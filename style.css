@@ -269,7 +269,10 @@ thead {
     color: var(--BaseColor2);
 }
 
- 
+.division-img {
+    display: flex;
+    justify-content: space-between;
+}
 
  
 /* Conócenos: fondo blanco, letras negras */
