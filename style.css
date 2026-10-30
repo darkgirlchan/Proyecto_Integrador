@@ -179,6 +179,10 @@ thead {
 }
 
 .btn-login:hover { background: var(--BaseColor3); color: var(--BaseColor1); }
+
+.p2 {
+    color: var(--BaseColor4);
+}
  
 .hero {
     display: flex; align-items: center; justify-content: space-between;
