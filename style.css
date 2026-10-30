@@ -100,6 +100,12 @@ img, picture, video, canvas, svg {
     align-items: center;
 }
 
+.sidebar-links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
 .navbar {
     display:flex;
     justify-content:space-between;
