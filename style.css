@@ -210,6 +210,11 @@ thead {
     border-radius: 5px;
     border: 1px solid var(--BaseColor2);
 }
+
+.btn-matriculate:hover {
+    background: var(--BotonPrimario); 
+    color: var(--letrasBase4); 
+}
  
 .hero {
     display: flex; align-items: center; justify-content: space-between;
