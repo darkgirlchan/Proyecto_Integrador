@@ -297,7 +297,13 @@ thead {
     align-items: center;
 }
 
-.pasos { list-style: none; display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.pasos {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
 .paso {
     padding: 24px; text-align: center;
     background: var(--letrasBase1); color: var(--letrasBase4);
