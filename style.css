@@ -187,6 +187,13 @@ thead {
 .p3 {
     text-align: center;
  }
+
+.pie { 
+    padding: 1.5rem; 
+    text-align: center; 
+    background: var(--letrasBase1); 
+    color: var(--letrasBase1); 
+}
  
 .hero {
     display: flex; align-items: center; justify-content: space-between;
