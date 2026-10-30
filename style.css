@@ -280,8 +280,6 @@ thead {
     margin-top: 4%;
 }
 
-
-.conocenos-grid .media-caja { min-height: 260px; }
  
 /* Instalaciones: fondo oscuro, letras blancas */
 .seccion-alt { max-width: none; background: var(--BaseColor2); color: var(--letrasBase1); }
