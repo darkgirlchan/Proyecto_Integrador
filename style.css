@@ -215,6 +215,13 @@ thead {
     background: var(--BotonPrimario); 
     color: var(--letrasBase4); 
 }
+
+.matricula-div {
+    align-content: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+} 
  
 .hero {
     display: flex; align-items: center; justify-content: space-between;
