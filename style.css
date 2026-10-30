@@ -286,8 +286,16 @@ thead {
     color: var(--letrasBase1);
 }
 
-.seccion-alt h2 { color: var(--BotonPrimario); }
-.instalaciones-grid { display: grid; grid-template-columns: 1fr 140px 1fr; gap: 32px; align-items: center; }
+.seccion-alt h2 {
+    color: var(--BotonPrimario);
+}
+
+.instalaciones-grid {
+    display: grid;
+    grid-template-columns: 1fr 8.75rem 1fr;
+    gap: 2rem;
+    align-items: center;
+}
  
 /* Matrícula: fondo azul claro, tarjetas blancas */
 .seccion-matricula { max-width: none; background: var(--BaseColor1); }
