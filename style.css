@@ -320,11 +320,18 @@ thead {
 }
 
 .numero {
-    display: inline-flex; align-items: center; justify-content: center;
-    width: 44px; height: 44px; margin-bottom: 12px; border-radius: 50%;
-    background: var(--BaseColor2); color: var(--letrasBase1);
-    font-weight: bold; font-size: 1.2rem;
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center;
+    width: 2.75rem; height: 2.75rem; 
+    margin-bottom: 0.75rem; 
+    border-radius: 50%;
+    background: var(--BaseColor2); 
+    color: var(--letrasBase1);
+    font-weight: bold; 
+    font-size: 1.2rem;
 }
+
 .centrado { text-align: center; margin-top: 40px; }
  
 /* ========== 6. PIE DE PÁGINA ========== */
