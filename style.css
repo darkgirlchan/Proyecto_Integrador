@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 
-
 :root {
     --BaseColor1: #1f7a6f;
     --BaseColor2: #2a9d8f;
@@ -15,15 +14,13 @@
     --BotonPrimario: #53ef91 ;
     --BotonSecundario: #E63946;
 }
+
 html {
     font-family: Arial, sans-serif;
+    font-size: 16px;
     scroll-behavior: smooth;
 }
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 body {
     line-height: 1.6;
 }
