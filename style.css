@@ -296,10 +296,7 @@ thead {
     gap: 2rem;
     align-items: center;
 }
- 
-/* Matrícula: fondo azul claro, tarjetas blancas */
-.seccion-matricula { max-width: none; background: var(--BaseColor1); }
-.seccion-matricula > * { max-width: 1100px; margin-left: auto; margin-right: auto; }
+
 .pasos { list-style: none; display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
 .paso {
     padding: 24px; text-align: center;
