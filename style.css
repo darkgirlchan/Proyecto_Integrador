@@ -712,9 +712,9 @@ tbody tr:hover {
 
 .content-admin {
     background-color: var(--BaseColor4);
-    padding: 20px;
+    padding: 1.25px;
     flex: 1;
-    margin-left: 200px;
+    margin-left: 12.5rem;
     display: flexbox;
 }
 
