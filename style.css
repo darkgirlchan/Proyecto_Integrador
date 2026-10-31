@@ -1,4 +1,5 @@
 /*estilos bases*/
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +12,7 @@
     --BaseColor4: #ecfefd;
     --letrasBase1: #FFFFFF;
     --letrasBase4: #000000;
-    --BotonPrimario: #53ef91 ;
+    --BotonPrimario: #53ef91;
     --BotonSecundario: #E63946;
 }
 
@@ -58,16 +59,21 @@ a {
     text-decoration: underline;
 }
 
-ul,ol {
+ul,
+ol {
     list-style: none;
 }
 
-img, picture, video, canvas, svg {
+img,
+picture,
+video,
+canvas,
+svg {
     max-width: 100%;
     display: block;
 }
 
-.logo{
+.logo {
     margin-left: -1.25rem;
     display: flex;
     width: 6.25rem;
@@ -78,14 +84,14 @@ img, picture, video, canvas, svg {
     display: flex;
     flex-direction: column;
     background-color: var(--BaseColor1);
-    padding: 1.5rem 1rem;                 
+    padding: 1.5rem 1rem;
     overflow-y: auto;
     height: 100%;
     width: 12.5rem;
     position: fixed;
     top: 0;
     left: 0;
-    box-shadow: 4px 0 10px rgba(0, 0, 0, 0.15); 
+    box-shadow: 4px 0 10px rgba(0, 0, 0, 0.15);
 }
 
 .sidebar a {
@@ -106,13 +112,13 @@ img, picture, video, canvas, svg {
     width: 100%;
 }
 
-.sidebar a:hover{
+.sidebar a:hover {
     color: var(--BotonPrimario);
 }
 
 .navbar {
-    display:flex;
-    justify-content:space-between;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     background-color: var(--BaseColor4);
     padding: 0.9375rem 3.125rem;
@@ -157,12 +163,14 @@ thead {
 .btn-cerrar-sesion {
     padding: 0.5em 1.25em;
     background-color: var(--BaseColor1);
-    border: 2px solid var(--BaseColor3); border-radius: 6px;
-    color: var(--letrasBase1); font-weight: bold;
+    border: 2px solid var(--BaseColor3);
+    border-radius: 6px;
+    color: var(--letrasBase1);
+    font-weight: bold;
     border: 1px solid var(--letrasBase4);
     cursor: pointer;
     border-radius: 5px;
-    margin-top: auto; 
+    margin-top: auto;
     border: 1px solid var(--letrasBase4);
 }
 
@@ -173,12 +181,17 @@ thead {
 .btn-login {
     display: inline-block;
     padding: 0.5em 1.25em;
-    border: 2px solid var(--BaseColor3); border-radius: 6px;
-    color: var(--BaseColor3); font-weight: bold;
+    border: 2px solid var(--BaseColor3);
+    border-radius: 6px;
+    color: var(--BaseColor3);
+    font-weight: bold;
     border: 1px solid var(--letrasBase4);
 }
 
-.btn-login:hover { background: var(--BaseColor3); color: var(--BaseColor1); }
+.btn-login:hover {
+    background: var(--BaseColor3);
+    color: var(--BaseColor1);
+}
 
 .p2 {
     color: var(--BaseColor4);
@@ -186,18 +199,19 @@ thead {
 
 .p3 {
     text-align: center;
- }
-
-.pie { 
-    padding: 1.5rem; 
-    text-align: center; 
-    background: var(--letrasBase1); 
-    color: var(--letrasBase1); 
 }
+
+.pie {
+    padding: 1.5rem;
+    text-align: center;
+    background: var(--letrasBase1);
+    color: var(--letrasBase1);
+}
+
 
 /*Estilos Mariana*/
 
-.btn-matriculate{
+.btn-matriculate {
     display: block;
     width: max-content;
     margin: 1.25rem auto 0 auto;
@@ -212,22 +226,23 @@ thead {
 }
 
 .btn-matriculate:hover {
-    background: var(--BotonPrimario); 
-    color: var(--letrasBase4); 
+    background: var(--BotonPrimario);
+    color: var(--letrasBase4);
 }
 
 .matricula-div {
     align-content: center;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
-} 
- 
+}
+
 .hero {
-    display: flex; 
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    min-height: 30rem; padding: 3rem;
+    min-height: 30rem;
+    padding: 3rem;
     background: var(--BaseColor2);
     color: var(--letrasBase1);
 }
@@ -250,15 +265,15 @@ thead {
 }
 
 .hero-imagen img {
-  width: 100%;
-  max-width: 32.5rem;
-  height: 26.25rem;
-  object-fit: cover;
-  border-radius: 12px;
+    width: 100%;
+    max-width: 32.5rem;
+    height: 26.25rem;
+    object-fit: cover;
+    border-radius: 12px;
 }
 
-.seccion { 
-    padding: 9.375rem; 
+.seccion {
+    padding: 9.375rem;
     margin: 0 auto;
     display: block;
 }
@@ -274,7 +289,7 @@ thead {
     justify-content: space-between;
 }
 
-.conocenos-grid { 
+.conocenos-grid {
     max-width: 37.5rem;
     text-align: center;
     margin-top: 4%;
@@ -305,110 +320,396 @@ thead {
 }
 
 .paso {
-    padding: 1.5rem; 
+    padding: 1.5rem;
     text-align: center;
-    background: var(--letrasBase1); 
+    background: var(--letrasBase1);
     color: var(--letrasBase4);
-    border-top: 5px solid var(--BaseColor2); 
+    border-top: 5px solid var(--BaseColor2);
     border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
 }
 
 .paso h3 {
-    margin-bottom: 0.5rem; 
+    margin-bottom: 0.5rem;
     color: var(--BaseColor2);
 }
 
 .numero {
-    display: inline-flex; 
-    align-items: center; 
+    display: inline-flex;
+    align-items: center;
     justify-content: center;
-    width: 2.75rem; height: 2.75rem; 
-    margin-bottom: 0.75rem; 
+    width: 2.75rem;
+    height: 2.75rem;
+    margin-bottom: 0.75rem;
     border-radius: 50%;
-    background: var(--BaseColor2); 
+    background: var(--BaseColor2);
     color: var(--letrasBase1);
-    font-weight: bold; 
+    font-weight: bold;
     font-size: 1.2rem;
 }
+
 
 /*Estilos Natalia*/
 
 
-
- 
 /* ========== 7. FORMULARIOS Y LOGIN ========== */
-.formulario { display: flex; flex-direction: column; gap: 8px; }
-.formulario label { font-weight: bold; font-size: 0.9rem; color: var(--letrasBase4); }
-.formulario input, .formulario select {
-    padding: 10px; border: 2px solid var(--BaseColor3); border-radius: 6px;
-    font-size: 1rem; background: var(--letrasBase1); color: var(--letrasBase4);
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
-.formulario input:focus, .formulario select:focus { outline: none; border-color: var(--BotonPrimario); }
-.btn-ancho { width: 100%; margin-top: 12px; border: none; cursor: pointer; font-size: 1rem; text-align: center; }
- 
+
+.formulario label {
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: var(--letrasBase4);
+}
+
+.formulario input,
+.formulario select {
+    padding: 10px;
+    border: 2px solid var(--BaseColor3);
+    border-radius: 6px;
+    font-size: 1rem;
+    background: var(--letrasBase1);
+    color: var(--letrasBase4);
+}
+
+.formulario input:focus,
+.formulario select:focus {
+    outline: none;
+    border-color: var(--BotonPrimario);
+}
+
+.btn-ancho {
+    width: 100%;
+    margin-top: 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: center;
+}
+
 .fondo-login {
-    min-height: 100vh; display: flex; align-items: center; justify-content: center;
-    background: var(--BaseColor2); padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--BaseColor2);
+    padding: 20px;
 }
+
 .login-caja {
-    width: 100%; max-width: 400px; padding: 32px;
-    background: var(--letrasBase1); color: var(--letrasBase4);
-    border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+    width: 100%;
+    max-width: 400px;
+    padding: 32px;
+    background: var(--letrasBase1);
+    color: var(--letrasBase4);
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
 }
-.login-caja h1 { margin: 12px 0 4px; color: var(--BaseColor2); }
-.login-caja > p { margin-bottom: 20px; }
-.login-pie { margin-top: 20px; font-size: 0.9rem; text-align: center; }
-.login-pie a { color: var(--BaseColor3); font-weight: bold; }
- 
+
+.login-caja h1 {
+    margin: 12px 0 4px;
+    color: var(--BaseColor2);
+}
+
+.login-caja>p {
+    margin-bottom: 20px;
+}
+
+.login-pie {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.login-pie a {
+    color: var(--BaseColor3);
+    font-weight: bold;
+}
+
+
 /* ========== 8. PANEL Y ADMINISTRACIÓN ========== */
-.panel-body { display: flex; min-height: 100vh; background: var(--BaseColor4); color: var(--letrasBase4); }
+
+.panel-body {
+    display: flex;
+    min-height: 100vh;
+    background: var(--BaseColor4);
+    color: var(--letrasBase4);
+}
+
 .lateral {
-    width: 220px; padding: 24px 20px;
-    background: var(--BaseColor1); color: var(--letrasBase1);
-    display: flex; flex-direction: column; position: sticky; top: 0; height: 100vh;
+    width: 220px;
+    padding: 24px 20px;
+    background: var(--BaseColor1);
+    color: var(--letrasBase1);
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    height: 100vh;
 }
-.logo-blanco { color: var(--letrasBase1); margin-bottom: 32px; }
-.lateral-menu { display: flex; flex-direction: column; gap: 6px; flex: 1; }
-.lateral-menu a { padding: 10px 12px; border-radius: 6px; color: var(--letrasBase1); }
-.lateral-menu a:hover { background: var(--BaseColor3); }
-.salir { padding: 10px 12px; border: 1px solid var(--letrasBase1); border-radius: 6px; text-align: center; color: var(--letrasBase1); }
-.salir:hover { background: var(--BotonPrimario); border-color: var(--BotonPrimario); color: var(--letrasBase4); }
- 
-.panel-contenido { flex: 1; padding: 32px; min-width: 0; }
-.panel-encabezado { margin-bottom: 24px; }
-.bloque { margin-top: 40px; }
-.bloque h2 { margin-bottom: 16px; color: var(--BaseColor2); }
- 
-.tarjetas { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+
+.logo-blanco {
+    color: var(--letrasBase1);
+    margin-bottom: 32px;
+}
+
+.lateral-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    flex: 1;
+}
+
+.lateral-menu a {
+    padding: 10px 12px;
+    border-radius: 6px;
+    color: var(--letrasBase1);
+}
+
+.lateral-menu a:hover {
+    background: var(--BaseColor3);
+}
+
+.salir {
+    padding: 10px 12px;
+    border: 1px solid var(--letrasBase1);
+    border-radius: 6px;
+    text-align: center;
+    color: var(--letrasBase1);
+}
+
+.salir:hover {
+    background: var(--BotonPrimario);
+    border-color: var(--BotonPrimario);
+    color: var(--letrasBase4);
+}
+
+.panel-contenido {
+    flex: 1;
+    padding: 32px;
+    min-width: 0;
+}
+
+.panel-encabezado {
+    margin-bottom: 24px;
+}
+
+.bloque {
+    margin-top: 40px;
+}
+
+.bloque h2 {
+    margin-bottom: 16px;
+    color: var(--BaseColor2);
+}
+
+.tarjetas {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
+
 .tarjeta {
-    padding: 20px; background: var(--letrasBase1); color: var(--letrasBase4);
-    border-left: 5px solid var(--BaseColor3); border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    padding: 20px;
+    background: var(--letrasBase1);
+    color: var(--letrasBase4);
+    border-left: 5px solid var(--BaseColor3);
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
 }
-.tarjeta h3 { margin-bottom: 8px; }
-.dato { font-size: 2rem; font-weight: bold; color: var(--BaseColor3); }
- 
-.tabla-scroll { overflow-x: auto; background: var(--letrasBase1); border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.12); }
-table { width: 100%; border-collapse: collapse; }
-th, td { padding: 12px 16px; text-align: left; border-bottom: 1px solid var(--BaseColor4); }
-th { background: var(--BaseColor3); color: var(--letrasBase1); }
-tbody tr:hover { background: var(--BaseColor4); }
- 
+
+.tarjeta h3 {
+    margin-bottom: 8px;
+}
+
+.dato {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--BaseColor3);
+}
+
+.tabla-scroll {
+    overflow-x: auto;
+    background: var(--letrasBase1);
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid var(--BaseColor4);
+}
+
+th {
+    background: var(--BaseColor3);
+    color: var(--letrasBase1);
+}
+
+tbody tr:hover {
+    background: var(--BaseColor4);
+}
+
+
 /* Estados (colores semánticos, fuera de la paleta) */
-.alerta { color: #c0392b; font-weight: bold; }
-.etiqueta { padding: 3px 10px; border-radius: 12px; font-size: 0.85rem; font-weight: bold; }
-.etiqueta.ok { background: #d4f1dc; color: #1e7a3c; }
-.etiqueta.falta { background: #fadbd8; color: #c0392b; }
-.etiqueta.tarde { background: #fdebd0; color: #b9770e; }
- 
-.admin-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; align-items: start; }
-.datos-lista { list-style: none; display: flex; flex-direction: column; gap: 8px; }
- 
+
+.alerta {
+    color: #c0392b;
+    font-weight: bold;
+}
+
+.etiqueta {
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+.etiqueta.ok {
+    background: #d4f1dc;
+    color: #1e7a3c;
+}
+
+.etiqueta.falta {
+    background: #fadbd8;
+    color: #c0392b;
+}
+
+.etiqueta.tarde {
+    background: #fdebd0;
+    color: #b9770e;
+}
+
+.admin-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    align-items: start;
+}
+
+.datos-lista {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
 /*estilos natalia*/
- 
+
+
 /*estilos danna*/
-.content-inicio { background-color: var(--BaseColor2); }
+
+.content-inicio {
+    background-color: var(--BaseColor2);
+}
+
+.content-admin {
+    background-color: var(--BaseColor4);
+    padding: 1.25rem;
+    flex: 1;
+    margin-left: 12.5rem;
+    display: flexbox;
+}
+
+.content-admin h2 {
+    color: var(--letrasBase4);
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+/* ========== 9. RESPONSIVE ========== */
+
+@media (max-width: 900px) {
+    .panel-body {
+        flex-direction: column;
+    }
+    .lateral {
+        width: 100%;
+        height: auto;
+        position: static;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 12px;
+    }
+    .logo-blanco {
+        margin-bottom: 0;
+    }
+    .lateral-menu {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .tarjetas {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .admin-grid {
+        grid-template-columns: 1fr;
+    }
+    .panel-contenido {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 800px) {
+    .encabezado {
+        padding: 12px 20px;
+    }
+    .encabezado .menu {
+        display: none;
+    }
+    .hero {
+        flex-direction: column;
+        padding: 32px 20px;
+        text-align: center;
+    }
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+    .hero-arcos {
+        margin-top: 32px;
+    }
+    .arco {
+        width: 100px;
+    }
+    .seccion {
+        padding: 40px 20px;
+    }
+    .conocenos-grid,
+    .instalaciones-grid,
+    .pasos {
+        grid-template-columns: 1fr;
+    }
+    .miniaturas {
+        flex-direction: row;
+    }
+    .miniaturas .media-caja {
+        flex: 1;
+    }
+}
+
+
+/*estilos natalia*/
+
+
+/*estilos danna*/
+
+.content-inicio {
+    background-color: var(--BaseColor2)
+}
+
 .content-admin {
     background-color: var(--BaseColor4);
     padding: 20px;
@@ -416,53 +717,10 @@ tbody tr:hover { background: var(--BaseColor4); }
     margin-left: 200px;
     display: flexbox;
 }
+
 .content-admin h2 {
     color: var(--letrasBase4);
     font-size: 2rem;
     text-align: center;
     margin-top: 2rem;
 }
- 
-/* ========== 9. RESPONSIVE ========== */
-@media (max-width: 900px) {
-    .panel-body { flex-direction: column; }
-    .lateral { width: 100%; height: auto; position: static; flex-direction: row; flex-wrap: wrap; align-items: center; gap: 12px; }
-    .logo-blanco { margin-bottom: 0; }
-    .lateral-menu { flex-direction: row; flex-wrap: wrap; }
-    .tarjetas { grid-template-columns: repeat(2, 1fr); }
-    .admin-grid { grid-template-columns: 1fr; }
-    .panel-contenido { padding: 20px; }
-}
-@media (max-width: 800px) {
-    .encabezado { padding: 12px 20px; }
-    .encabezado .menu { display: none; }
-    .hero { flex-direction: column; padding: 32px 20px; text-align: center; }
-    .hero h1 { font-size: 2.2rem; }
-    .hero-arcos { margin-top: 32px; }
-    .arco { width: 100px; }
-    .seccion { padding: 40px 20px; }
-    .conocenos-grid, .instalaciones-grid, .pasos { grid-template-columns: 1fr; }
-    .miniaturas { flex-direction: row; }
-    .miniaturas .media-caja { flex: 1; }
-}
-/*estilos natalia*/
-
-/*estilos danna*/
-.content-inicio{
-    background-color: var(--BaseColor2)
-}
-.content-admin{
-    background-color: var(--BaseColor4);
-    padding: 20px;
-    flex: 1;
-    margin-left: 200px;
-    display:flexbox;   
-}
-.content-admin h2{
-    color: var(--letrasBase4);
-    font-size: 2rem;
-    text-align: center;
-    margin-top: 2rem;
-}
-
-
