@@ -396,11 +396,11 @@ footer{
 }
 .tarjetas {
     background-color: var(--BaseColor4);
-    padding: 20px;
+    padding: 1.25rem;
     flex: 1;
     display: grid; 
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    gap: 1.25rem;
 }
 .tarjeta {
     border-top: 20px solid var(--BaseColor1);
