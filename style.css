@@ -337,11 +337,11 @@ thead {
 .login-container{
     background-color: var(--BaseColor4);
     border-radius: 10%;
-    padding: 20px;
+    padding: 1.25rem;
     margin: auto;
-    height: 600px;
-    margin-top: 20px;
-    width: 50%;
+    min-height: 37.5rem;
+    margin-top: 1.25rem;
+    max-width: 90%;
     text-align: center;
     border: 1px solid var(--letrasBase4);
 }
