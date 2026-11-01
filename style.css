@@ -404,12 +404,12 @@ footer{
 }
 .tarjeta {
     border-top: 20px solid var(--BaseColor1);
-    padding: 20px; 
+    padding: 1.25rem; 
     background: var(--BaseColor2); 
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
-.tarjeta h3 { margin-bottom: 8px; color: var(--BotonPrimario);}
+.tarjeta h3 { margin-bottom: 0.5rem; color: var(--BotonPrimario);}
 .dato { 
     font-size: 2rem;
     font-weight: bold;
